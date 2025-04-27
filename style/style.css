@@ -1,0 +1,36 @@
+.student-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.student-info p {
+    margin: 5px 0;
+}
+
+.grade-label {
+    font-weight: bold;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.mt-2 {
+    margin-top: 5vh !important;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    padding: 0 10px 0 10px;
+}
+
+.input-group > .form-control, .input-group > .form-select, .input-group > .form-floating {
+    position: relative; 
+    flex: 1 1 auto;
+    /* width: 1%; */
+    min-width: 0;
+    font-style: italic !important;
+}
